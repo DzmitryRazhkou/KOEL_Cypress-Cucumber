@@ -1,0 +1,21 @@
+{
+  "name": "koel_cy-cucumber",
+  "version": "1.0.0",
+  "description": "KOEL CYPRESS CUCUMBER PROJECT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dzmitry Razhkou",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.5.1",
+    "step_definitions": "cypress/integration/BDD/step_definitions/*.+(js|ts|tsx)",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.3"
+  }
+}
