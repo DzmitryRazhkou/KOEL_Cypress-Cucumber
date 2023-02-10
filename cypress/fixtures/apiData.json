@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "contentType": "application/json"
+  },
+  "token": {
+    "email": "dimagadjilla@gmail.com",
+    "password": "te$t$tudent"
+  },
+
+  "bodyCreatePlaylist": {
+    "songs": [],
+    "rules": null
+  }
+}
